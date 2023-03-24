@@ -10,6 +10,12 @@ const fruitLoops = ()=>{
   })
 }
 
+// alternative
+
+for (let i = 0; i < fruits.length; i++){
+  console.log('alt',fruits[i])
+}
+
 fruitLoops()
 
 // Given the following array, output each student's first name
@@ -29,12 +35,7 @@ const students = [
     firstName: 'Meghann',
     lastName: 'Stamper',
     gender: 'female',
-  },
-  {
-    firstName: 'Meghann',
-    lastName: 'Stamper',
-    gender: 'female',
-  },
+  }
 ]
 
 // write loop here....
@@ -47,3 +48,4 @@ const studentLoop = ()=>{
 
 studentLoop()
 
+console.log(isFinite(9e307))
